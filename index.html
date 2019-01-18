@@ -1,2 +1,13 @@
 aaa
 https://mustache.github.io/mustache.5.html
+
+<block wx:for="{{questions}}" wx:key="id">
+    <template is="{{
+                  item.type == 'TEXT' ? 'textTmpl' : 
+                  ( item.type == 'NUMBER' ? 'numberTmpl' : 
+                  ( item.type == 'RADIO' ? 'radioTmpl' : 
+                  (item.type == 'CHECKBOX' ? 'checkboxTmpl' : 
+                  'default')))}}"
+                  data="{{...item}}" />
+</block>
+
