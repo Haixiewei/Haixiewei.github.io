@@ -34,15 +34,14 @@
 <!-- 百度统计 -->
   {% if site.baidu.id %}
   <script>
-  var _hmt = _hmt || [];
-  (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?86d28110847ff61436856ac0a5f5f9a8";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-  })();
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?{{site.baidu.id}}";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
   </script>
-
   {% endif %}
 
 <!-- google 统计 -->

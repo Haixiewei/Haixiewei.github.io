@@ -5,7 +5,7 @@ description: welcome ~~
 # 头像里面的标题
 avatarTitle: hai
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
+avatarDesc: PHP / other
 url: "haixiewei.github.io"
 
 # Comment
@@ -60,5 +60,5 @@ nav:
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
+paginate: 10
 paginate_path: "page/:num/"
