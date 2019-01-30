@@ -71,6 +71,7 @@ www  WEB部署目录（或者子目录）  5.1
 
 >配置目录和路由定义目录独立出来，不再放入应用类库目录（并且不可更改）
 
+
 ```
 project  应用部署目录  5.0
 ├─application           应用目录（可设置）
@@ -128,16 +129,13 @@ project  应用部署目录  5.0
 4. 5.1的`module_name`模块配置目录与应用配置`config`完全独立不再合并,至于`优先级`猜?
 
 # 二、配置获取与设置
-1. `Config::get()`	[获取](/images/posts/tp5.1/config get.png) <a href="/images/posts/tp5.1/config get.png" target="_blank">d</a>
-2. `Config::set()`设置
-3. `Config::has()`查询
+1. `Config::get()`	![获取](/images/posts/tp5.1/config get.png)
+2. `Config::set()`  ![设置](/images/posts/tp5.1/configset.png)
+3. `Config::has()`  
 4. `config()`助手函数
-5. 
-# 3
-# 4
-# 5
-# 6
-# 7
-# 8
-# 9
-# 10
+		//  use think\facade\Config
+		
+![config](/images/posts/tp5.1/config.png)
+
+> 钟意使用静态类方式调用 助手函数隐藏了许多细节 得不到开发环境ide支持
+
