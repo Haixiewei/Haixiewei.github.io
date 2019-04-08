@@ -1,6 +1,6 @@
 # hxwei
 
-[haixiewei](httpss://haixiewei.github.io) ,如果你也喜欢请 Star ，你的 Star 是我持续更新的动力, 谢谢 😄.
+[haixiewei](httpss://haixiewei.github.io) 😄.
 
 ### 使用手册
 
