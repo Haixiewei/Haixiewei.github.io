@@ -2,17 +2,13 @@
 title: hxwei
 subtitle: Canbe destroyed butnot defeated
 description: Welcome self-confident bold communication~~
-# 头像里面的标题
-avatarTitle: 谢维
-# 头像里面的描述
+avatarTitle: 维
 avatarDesc: PHP / Mini Program
-url: "haixiewei.github.io"
+url: "http://xiewei.io"
 
 # Comment
 comment:
-    # disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
-    # cloudTie
+
 
 # Social
 social:
@@ -24,11 +20,6 @@ social:
 # 百度统计
 baidu:
     id: 86d28110847ff61436856ac0a5f5f9a8
-
-# Google Analytics
-# ga:
-#     id: UA-84134159-3
-#     host: auto
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
