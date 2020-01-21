@@ -1,9 +1,9 @@
 # Basic
-title: hxwei
-subtitle: Canbe destroyed butnot defeated
-description: Welcome self-confident bold communication~~
+title: 谢维
+subtitle: 你已被摧毁
+description: 欢迎自由交流
 avatarTitle: 维
-avatarDesc: PHP / Mini Program
+avatarDesc: code
 url: "http://xiewei.io"
 
 # Comment
@@ -47,8 +47,6 @@ nav:
     - {title: 所有文章, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 关于我, description: about, url: '/about'}
-
-
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
